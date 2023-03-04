@@ -6,9 +6,28 @@ html body {
 
 header {
     background: #145887;
-    padding: 20px 60px;
+    padding: 10px 60px;
     display: flex;
     justify-content: space-between;
+    color: white;
+}
+
+header div a {
+    color: white;
+    text-decoration: none;
+}
+
+header div a:hover {
+    color: #e95095;
+}
+
+header div a::after {
+    color: white;
+}
+
+header div a i {
+    margin-right: 5px;
+    margin-top: -5px;
 }
 
 nav {
@@ -47,6 +66,20 @@ nav {
     border-radius: 1.8em;
 }
 
+.quote:hover {
+    background-color: #145887;
+    color: white;
+    cursor: pointer;
+}
+
 .quoteDiv {
     padding-top: 40px;
+}
+
+/* MAIN */
+
+main {
+    color: white;
+    background: #145887;
+    text-align: center;
 }
