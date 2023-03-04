@@ -1,0 +1,23 @@
+html body {
+    padding: 0px;
+    margin:0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    text-align: center;
+    background: #f2c600;
+}
+
+nav ul li {
+    padding: 40px;
+    color: #145887;
+}
+
+.logo {
+    width:50px;
+}
