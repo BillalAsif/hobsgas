@@ -1,8 +1,26 @@
+/* General tags */
+
+
 html body {
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     font-family: 'Rubik', sans-serif;
 }
+
+h1 {
+    font-weight: 400;
+    font-size: 3.0rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* Nav */
 
 header {
     background: #145887;
@@ -45,6 +63,7 @@ nav {
 .navLinks {
     padding: 40px;
     color: #145887;
+    font-weight: 600;
 }
 
 .navLinks:hover {
@@ -53,7 +72,7 @@ nav {
 }
 
 .logo {
-    width:80px;
+    width: 80px;
     margin-top: 15px;
 }
 
@@ -78,8 +97,64 @@ nav {
 
 /* MAIN */
 
-main {
+.main {
     color: white;
     background: #145887;
     text-align: center;
+    padding: 40px;
+}
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.main img {
+    width: 60%;
+    margin: 40px 0px;
+}
+
+/* services */
+.w-bg {
+    background: #ffffff;
+    color: black;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.services-list div {
+    flex-grow: 1;
+    width: 33%;
+}
+
+.services-list div ul li {
+    list-style-type: none;
+}
+
+.services-list div ul li i {
+    color: #e95095;
+    margin-right: 10px;
+}
+
+/* Gas section */
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+#flame {
+    font-size: 40px;
 }
