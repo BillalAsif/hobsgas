@@ -196,3 +196,19 @@ footer {
 footer p {
     margin-bottom: 0px;
 }
+
+/* Brands and customers */
+
+.brands {
+    text-align: center;
+}
+
+.brands img {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.reviews {
+    text-align: center;
+}
