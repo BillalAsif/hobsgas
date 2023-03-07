@@ -300,9 +300,9 @@ form textarea:focus {
     }
 
     .mobileNavDropdown {
-        display: inline;
+        display: none;
         position: absolute;
-        bottom: -209px;
+        bottom: -211px;
         left: 0px;
         width: 100%;
         background: #f2c600;
@@ -337,4 +337,5 @@ form textarea:focus {
     .logo {
         padding-bottom: 15px;
     }
+
 }
