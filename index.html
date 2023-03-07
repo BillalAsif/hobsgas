@@ -210,13 +210,14 @@
         <section class="main container w-bg">
 
             <h1>CONTACT US</h1>
-            
-            <form action="">
 
-                <input type="text" placeholder="Name *" required>
-                <input type="email" placeholder="Email *" required>
-                <textarea type="text" rows="5" placeholder="Message *" required></textarea>
-                <button class="quote submit" type="button">Submit</button>
+            <form action="action.php" method="post">
+
+                <input id="name" name="name" type="text" placeholder="Name *" required>
+                <input id="email" name="email" type="email" placeholder="Email *" required>
+                <textarea id="message" name="message" type="text" rows="5" placeholder="Message *" required></textarea>
+                <button class="quote submit" type="submit">Submit</button>
+
             </form>
 
         </section>
