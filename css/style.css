@@ -321,7 +321,17 @@ form textarea:focus {
         width: 33%;
     }
 
+    .quoteDiv>.quote {
+        position: absolute;
+        right: 55px;
+        top: 27px;
+    }
+
     .logoDiv {
         width: 33%;
+    }
+
+    .logo {
+        padding-bottom: 15px;
     }
 }
