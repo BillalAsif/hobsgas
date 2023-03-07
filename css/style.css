@@ -25,6 +25,7 @@ p {
     background: #145887;
     text-align: center;
     padding: 40px;
+    margin-bottom: 40px;
 }
 
 .w-bg {
@@ -79,6 +80,14 @@ nav {
 .navDiv {
     display: flex;
     justify-content: space-between;
+}
+
+.navDivMobile {
+    display: none;
+}
+
+.mobileNavDropdown {
+    display: none;
 }
 
 .navLinks {
@@ -270,4 +279,49 @@ form textarea:focus {
     border: #e95095 2px solid;
     background: #e95095;
     transition: 0.3s;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:1024px) {
+    .navDiv {
+        display: none;
+    }
+
+    .navDivMobile {
+        display: block;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        color: #145887;
+        font-size: 30px;
+        width: 33%;
+    }
+
+    .mobileNavDropdown {
+        display: inline;
+        position: absolute;
+        bottom: -85px;
+        left: 0px;
+        width: 100%;
+        background: #f2c600;
+        text-align: center;
+    }
+
+    .mobileNavDropdown>ul {
+        padding-inline-start: 0px;
+    }
+
+    .mobileNavDropdown>ul>li {
+        list-style: none;
+    }
+
+    .quoteDiv {
+        width: 33%;
+    }
+
+    .logoDiv {
+        width: 33%;
+    }
 }
