@@ -20,6 +20,24 @@ p {
     line-height: 28px;
 }
 
+.main {
+    color: white;
+    background: #145887;
+    text-align: center;
+    padding: 40px;
+}
+
+.w-bg {
+    background: #ffffff;
+    color: #145887;
+}
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
 /* Nav */
 
 header {
@@ -97,28 +115,12 @@ nav {
 
 /* MAIN */
 
-.main {
-    color: white;
-    background: #145887;
-    text-align: center;
-    padding: 40px;
-}
-
-.container {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
 .hero-img {
     width: 60%;
     margin: 40px 0px;
 }
 
 /* services */
-.w-bg {
-    background: #ffffff;
-    color: black;
-}
 
 .services-list {
     display: flex;
@@ -211,4 +213,58 @@ footer p {
 
 .reviews {
     text-align: center;
+    background-color: #145887;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.owl-h {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+.owl-p {
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.owl-location {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+/* Contact */
+
+form input,
+form textarea {
+    width: 100%;
+    margin: 5px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 0.3rem;
+    border: 2px #145887 solid;
+}
+
+form input:focus,
+form textarea:focus {
+    border: none;
+    outline: 2px #e95095 solid;
+}
+
+.submit {
+    font-size: 16px;
+    font-weight: 600;
+    background: #145887;
+    color: #ffffff;
+}
+
+.submit:hover {
+    font-size: 16px;
+    font-weight: 600;
+    border: #e95095 2px solid;
+    background: #e95095;
+    transition: 0.3s;
 }
