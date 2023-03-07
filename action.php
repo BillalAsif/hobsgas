@@ -1,28 +1,28 @@
 <?php
 
     // Variables from HTML
-    $name = $_POST("name");
-    $email = $_POST('email');
-    $message = $_POST('messageHTML');
+    $name = $_POST["name"];
+    $email = $_POST['email'];
+    $messageHTML = $_POST['message'];
 
-    // Reg replacement
-    preg_replace($name, $email, $messageHTML);
 
     // Build message
     $to = "asif.billal@gmail.com";
     $subject = "Online Enquiry";
 
-    $message = "<h1>A Potential Customer Is Contacting You<h1></br>";
-    $message .= 'Name: ' + $name + '</br>';
-    $message .= 'Email: ' + $email + '</br>';
-    $message .= 'Message: ' + $messageHTML + '</br>';
+    $message = "<h1>A Potential Customer Is Contacting You</br>";
+    $message .= 'Name: ' . $name . '</br>';
+    $message .= 'Email: ' . $email . '</br>';
+    $message .= 'Message: ' . $messageHTML . '</br>';
 
-    $retval = mail($to, $subject, $message);
+    $headers = "From: " . $email;
+
+    $retval = mail($to, $subject, $message, $headers);
     // Send message
-    if($retval == true) {
+    if($retval) {
         echo "Message was Sent!";
     } else {
-        "Message was not sent, please try again.";
+        echo "Message was not sent, please try again.";
     }
 
 ?>
