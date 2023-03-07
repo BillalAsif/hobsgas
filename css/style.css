@@ -302,7 +302,7 @@ form textarea:focus {
     .mobileNavDropdown {
         display: inline;
         position: absolute;
-        bottom: -85px;
+        bottom: -209px;
         left: 0px;
         width: 100%;
         background: #f2c600;
@@ -315,6 +315,9 @@ form textarea:focus {
 
     .mobileNavDropdown>ul>li {
         list-style: none;
+        padding: 20px;
+        color: #ffffff;
+        cursor: pointer;
     }
 
     .quoteDiv {
