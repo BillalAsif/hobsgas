@@ -404,6 +404,10 @@ form textarea:focus {
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     }
 
+    .quoteDiv {
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width:537px) {
