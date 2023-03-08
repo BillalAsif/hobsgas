@@ -424,3 +424,22 @@ form textarea:focus {
     }
 
 }
+
+@media only screen and (max-width:400px) {
+
+    h1 {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
