@@ -77,6 +77,10 @@ nav {
     z-index: 2;
 }
 
+.showNav {
+    display: inline;
+}
+
 .navDiv {
     display: flex;
     justify-content: space-between;
@@ -290,8 +294,17 @@ form textarea:focus {
 @media only screen and (max-width:1024px) {
 
     /* Nav */
+
+    nav {
+        position: sticky;
+    }
+
     .navDiv {
         display: none;
+    }
+
+    #navButton {
+        cursor: pointer;
     }
 
     .navDivMobile {
@@ -369,7 +382,7 @@ form textarea:focus {
 
     html,
     body {
-        overflow-x: hidden;
+        overflow-x: clip;
     }
 
 }

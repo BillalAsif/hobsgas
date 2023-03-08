@@ -28,3 +28,12 @@ if (windowSize <= 500) {
     breakpointOne.innerHTML = "<br/>";
     breakpointTwo.innerHTML = "<br/>";
 }
+
+// Nav Button, opens and closes mobile menu
+let navButton = document.getElementById('navButton');
+let mobileNav = document.querySelector('.mobileNavDropdown');
+
+
+document.addEventListener('toggle', () => {
+    mobileNav.classList.add('showNav');
+})
