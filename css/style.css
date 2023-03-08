@@ -420,9 +420,9 @@ form textarea:focus {
     }
 
     /* contact */
-    .contact {
-        padding-left: 0px;
-        padding-right: 35px;
+    form input,
+    form textarea {
+        padding: 10px 0px;
     }
 
 }
