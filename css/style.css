@@ -408,9 +408,23 @@ form textarea:focus {
         display: none;
     }
 
+    /* Nav */
+
+    .navDivMobile {
+        justify-content: right;
+    }
+
 }
 
 @media only screen and (max-width:537px) {
+
+    /* Nav */
+
+    nav,
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     /* Services images */
 
