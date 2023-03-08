@@ -426,6 +426,11 @@ form textarea:focus {
         margin: 5px -10px;
     }
 
+    /* footer */
+    footer p {
+        font-size: 12px;
+    }
+
 }
 
 @media only screen and (max-width:537px) {
