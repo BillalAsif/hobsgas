@@ -367,6 +367,11 @@ form textarea:focus {
         margin-right: 10px;
     }
 
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
 }
 
 @media only screen and (min-width:656px) and (max-width:1023px) {
