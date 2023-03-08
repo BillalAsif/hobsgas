@@ -18,3 +18,13 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+// Add breakpoint on footer
+let breakpointOne = document.querySelector('.breakOne');
+let breakpointTwo = document.querySelector('.breakTwo');
+let windowSize = window.innerWidth;
+
+if (windowSize <= 500) {
+    breakpointOne.innerHTML = "<br/>";
+    breakpointTwo.innerHTML = "<br/>";
+}
