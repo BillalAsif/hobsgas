@@ -161,13 +161,17 @@ nav {
 
 }
 
+.mobile-row {
+    display: none;
+}
+
 .col {
     grid-column: span 2;
     grid-row: span 1;
     height: 400px;
 }
 
-#flame {
+.col>i {
     font-size: 40px;
 }
 
@@ -284,6 +288,8 @@ form textarea:focus {
 /* Media Queries */
 
 @media only screen and (max-width:1024px) {
+
+    /* Nav */
     .navDiv {
         display: none;
     }
@@ -336,6 +342,85 @@ form textarea:focus {
 
     .logo {
         padding-bottom: 15px;
+    }
+
+    /* Buliet points */
+    .services-list {
+        display: inline-block;
+    }
+
+    .services-list div {
+        width: 100%;
+    }
+
+    .services-list div ul {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .services-list div ul li {
+        text-align: left;
+    }
+
+    .services-list div ul li i {
+        color: #e95095;
+        margin-right: 10px;
+    }
+
+}
+
+@media only screen and (min-width:656px) and (max-width:1023px) {
+
+    /* Services images */
+    .col {
+        height: 300px;
+    }
+
+    .col>i {
+        font-size: 30px;
+    }
+
+    .col>p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .col>h1 {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:656px) {
+
+    /* Services */
+
+    .pc-row {
+        display: none;
+    }
+
+    .mobile-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+}
+
+@media only screen and (max-width:537px) {
+
+    /* Services images */
+
+    .col>i {
+        font-size: 26px;
+    }
+
+    .col>p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .col>h1 {
+        font-size: 18px;
     }
 
 }
