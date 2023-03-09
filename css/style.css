@@ -77,10 +77,6 @@ nav {
     z-index: 2;
 }
 
-.showNav {
-    display: inline;
-}
-
 .navDiv {
     display: flex;
     justify-content: space-between;
@@ -291,6 +287,74 @@ form textarea:focus {
 
 /* Media Queries */
 
+@media only screen and (min-width:1750px) {
+
+    /* Services images */
+    .col {
+        height: 700px;
+    }
+
+    .col>i {
+        font-size: 50px;
+    }
+
+    .col>p {
+        font-size: 26px;
+    }
+
+    .col>h1 {
+        font-size: 34px;
+    }
+
+}
+
+@media only screen and (min-width:1451px) {
+
+    /* Services images */
+    .col {
+        height: 600px;
+    }
+
+    .col>i {
+        font-size: 40px;
+    }
+
+    .col>p {
+        font-size: 18px;
+    }
+
+    .col>h1 {
+        font-size: 26px;
+    }
+
+    .container {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+}
+
+@media only screen and (min-width:1450px) {
+
+    /* Services images */
+    .col {
+        height: 500px;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    .mobileNavDropdown {
+        position: absolute;
+        bottom: -211px;
+        left: 0px;
+        width: 100%;
+        background: #f2c600;
+        text-align: center;
+    }
+
+}
+
 @media only screen and (max-width:1024px) {
 
     /* Nav */
@@ -318,8 +382,12 @@ form textarea:focus {
         width: 33%;
     }
 
+    .showNav {
+        display: inline;
+        transition: all 5s ease-out;
+    }
+
     .mobileNavDropdown {
-        display: none;
         position: absolute;
         bottom: -211px;
         left: 0px;

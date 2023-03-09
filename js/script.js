@@ -34,6 +34,6 @@ let navButton = document.getElementById('navButton');
 let mobileNav = document.querySelector('.mobileNavDropdown');
 
 
-document.addEventListener('toggle', () => {
+navButton.addEventListener('click', () => {
     mobileNav.classList.add('showNav');
 })
