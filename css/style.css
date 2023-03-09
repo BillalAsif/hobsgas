@@ -507,7 +507,7 @@ form textarea:focus {
         display: flex;
         align-items: center;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     /* contact */
