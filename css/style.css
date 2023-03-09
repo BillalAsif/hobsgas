@@ -510,6 +510,10 @@ form textarea:focus {
         font-size: 12px;
     }
 
+    .logo {
+        width: 50%;
+    }
+
     /* contact */
     form input,
     form textarea {
