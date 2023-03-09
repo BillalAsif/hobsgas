@@ -86,6 +86,10 @@ nav {
     display: none;
 }
 
+.quoteDivMobile {
+    display: none;
+}
+
 .mobileNavDropdown {
     display: none;
 }
@@ -384,7 +388,6 @@ form textarea:focus {
 
     .showNav {
         display: inline;
-        transition: all 5s ease-out;
     }
 
     .mobileNavDropdown {
@@ -498,6 +501,13 @@ form textarea:focus {
 
     .navDivMobile {
         justify-content: right;
+    }
+
+    .quoteDivMobile {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
     }
 
     /* contact */
