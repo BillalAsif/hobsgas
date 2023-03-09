@@ -32,8 +32,11 @@ if (windowSize <= 500) {
 // Nav Button, opens and closes mobile menu
 let navButton = document.getElementById('navButton');
 let mobileNav = document.querySelector('.mobileNavDropdown');
-
-
+mobileNav.style.display = "none";
 navButton.addEventListener('click', () => {
-    mobileNav.classList.add('showNav');
+    if (mobileNav.style.display === "none") {
+        mobileNav.style.display = "block";
+    } else {
+        mobileNav.style.display = "none";
+    }
 })
