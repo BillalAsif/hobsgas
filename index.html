@@ -41,15 +41,15 @@
 
         <!-- Start media only displayed on above 1024px -->
         <div class="navDiv">
-            <div class="navLinks">HOME</div>
-            <div class="navLinks">SERVICES</div>
-            <div class="navLinks">TESTIMONIALS</div>
+            <div class="navLinks home active">HOME</div>
+            <div class="navLinks services">SERVICES</div>
+            <div class="navLinks testimonials">TESTIMONIALS</div>
         </div>
         <!-- End media -->
 
         <!-- Mobile Quote -->
         <div class="quoteDivMobile">
-            <i class="quote">Request a Quote</i>
+            <i class="quote requestQuoteButtonMobile">Request a Quote</i>
         </div>
         <!-- End mobile quote -->
 
@@ -60,14 +60,14 @@
         <!-- End media -->
 
         <div class="quoteDiv">
-            <i class="quote">Request a Quote</i>
+            <i class="quote requestQuoteButton">Request a Quote</i>
         </div>
 
         <div class="mobileNavDropdown">
-            <ul class="">
-                <li class="">HOME</li>
-                <li class="">SERVICES</li>
-                <li class="">TESTIMONIALS</li>
+            <ul>
+                <li class="homeMobile active">HOME</li>
+                <li class="servicesMobile">SERVICES</li>
+                <li class="testimonialsMobile">TESTIMONIALS</li>
             </ul>
         </div>
 
@@ -76,7 +76,7 @@
     <!-- Main content -->
     <main>
         <!-- Intro section -->
-        <section class="main container">
+        <section id="home" class="main container">
             <h1>YOUR PLUMBING & HEATING REPAIR SPECIALISTS</h1>
             <p>We will always aim to provide you with a quick and effective solution for your heating and plumbing
                 requirements. Our work ranges from central heating repairs to drain installations, hot water system
@@ -85,7 +85,7 @@
             <img class="hero-img" src="assets/HG-Hero-Plumbing-3-1024x478.png" alt="Plumbing">
         </section>
         <!-- Services -->
-        <section class="main container w-bg">
+        <section id="services" class="main container w-bg">
             <h1>SERVICES WE PROVIDE</h1>
             <p>We are committed to providing you with the highest quality service, you can trust we will work our
                 hardest to
@@ -202,7 +202,7 @@
                 <img src="assets/Gas-Safe-274x300.png" alt="Gas-Safe Logo">
             </div>
 
-            <div class="reviews container">
+            <div id="testimonials" class="reviews container">
 
                 <h1>WHAT OUR CUSTOMERS SAY</h1>
 
@@ -249,7 +249,7 @@
 
         </section>
 
-        <section class="main container w-bg">
+        <section id="requestQuote" class="main container w-bg">
 
             <h1>CONTACT US</h1>
 

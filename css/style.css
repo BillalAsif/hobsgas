@@ -105,6 +105,11 @@ nav {
     cursor: pointer;
 }
 
+.active {
+    background-color: #145887;
+    color: #ffffff;
+}
+
 .logo {
     width: 80px;
     margin-top: 15px;
