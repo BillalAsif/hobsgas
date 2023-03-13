@@ -170,10 +170,6 @@ nav {
 
 }
 
-.mobile-row {
-    display: none;
-}
-
 .col {
     grid-column: span 2;
     grid-row: span 1;
@@ -489,13 +485,9 @@ form textarea:focus {
 
     /* Services */
 
-    .pc-row {
-        display: none;
-    }
-
-    .mobile-row {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    .mobile-col-one {
+        display: flex;
+        order: 1;
     }
 
     .quoteDiv {
