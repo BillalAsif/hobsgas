@@ -7,7 +7,7 @@
 
 
     // Build message
-    $to = "support@hobsgas.co.uk";
+    $to = "support@hobsgas.com";
     $subject = "Online Enquiry";
 
     $message = "<h1>A Potential Customer Is Contacting You</br>";
