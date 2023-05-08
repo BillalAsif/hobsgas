@@ -10,10 +10,10 @@
     $to = "support@hobsgas.com";
     $subject = "Online Enquiry";
 
-    $message = "<h1>A Potential Customer Is Contacting You</br>";
-    $message .= 'Name: ' . $name . '</br>';
-    $message .= 'Email: ' . $email . '</br>';
-    $message .= 'Message: ' . $messageHTML . '</br>';
+    $message = "A Potential Customer Is Contacting You!"; \n
+    $message .= 'Name: ' . $name; \n
+    $message .= 'Email: ' . $email; \n
+    $message .= 'Message: ' . $messageHTML; \n
 
     $headers = "From: " . $email;
 
