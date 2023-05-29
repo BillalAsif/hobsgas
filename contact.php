@@ -63,3 +63,5 @@ if (!$sentMail) {
 		<p>Your email has already arrived in our Inbox, all We need to do is check it..
 		<br />Good day.</p>';
 }
+
+?>
