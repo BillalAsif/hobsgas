@@ -12,7 +12,7 @@ $(document).ready(function () {
     $('.error').hide(); //Hide error messages 
     $('#MainResult').hide(); //we will hide this right now
     $('#form-wrapper').show(); //show main form
-    $(".contact-btn").click(function () { //User clicks on Submit button
+    $("#contact-btn").click(function () { //User clicks on Submit button
 
         // Fetch data from input fields.
         var js_name = $("#name").val();
