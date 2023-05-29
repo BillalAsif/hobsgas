@@ -75,6 +75,11 @@
 
     <!-- Main content -->
     <main>
+
+        <!--whattsapp-->
+        <a href="https://wa.me/message/MW2YLBN5LJENB1" class="whattsapp float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
         <!-- Intro section -->
         <section id="home" class="main container">
             <h1>YOUR PLUMBING & HEATING REPAIR SPECIALISTS</h1>
@@ -237,14 +242,49 @@
 
             <h1>CONTACT US</h1>
 
-            <form action="action.php" method="post">
-
-                <input id="name" name="name" type="text" placeholder="Name *" required>
-                <input id="email" name="email" type="email" placeholder="Email *" required>
-                <textarea id="message" name="message" type="text" rows="5" placeholder="Message *" required></textarea>
-                <button class="quote submit" type="submit">Submit</button>
-
-            </form>
+            <div id="form-wrapper">
+                <div id="form-inner">
+                    <div id="ErrResults">
+                        <!-- retrive Error Here -->
+                    </div>
+                    <div id="MainResult">
+                        <!-- retrive response Here -->
+                    </div>
+                    <div id="MainContent">
+                        <form id="MyContactForm" name="MyContactForm" method="post">
+                            <p class="name">
+                                <input type="text" name="name" id="name" placeholder="Your Name ...">
+                                <label for="name" id="nameLb"><span class="error">*Name Field
+                                        Required</span></label>
+                            </p>
+                            <p>
+                                <input type="email" name="email" id="email" placeholder="Your Email ...">
+                                <label for="email" id="emailLb">
+                                    <span class="error error1">*Email Field Required</span>
+                                    <span class="error error2">*Email Not Valid</span>
+                                </label>
+                            </p>
+                            <p>
+                                <input type="text" name="phone" id="phone" placeholder="Your Telephone ...">
+                                <label for="phone" id="phoneLb"><span class="error">*Telephone Field
+                                        Required</span></label>
+                            </p>
+                            <p class="textarea">
+                                <textarea name="message" id="message" placeholder="Your Message ..."
+                                    rows="4"></textarea>
+                                <label for="message" id="messageLb"><span class="error">*Message Field
+                                        Required</span></label>
+                            </p>
+                            <div class="clearfix"></div>
+                            <a href="#" class="quote submit contact-btn"></i> Send
+                                Message</a>
+                        </form>
+                    </div>
+                    <!--MainContent-->
+                </div>
+                <!--form-inner-->
+            </div>
+            <!--form-wrapper-->
 
         </section>
 
@@ -264,6 +304,7 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 
