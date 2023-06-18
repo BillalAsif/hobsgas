@@ -56,7 +56,7 @@ $Body .= "\n";
 mail($toEmail, $subject, $Body . '  -' . $postName,  $headers);
 
 if (!$sentMail) {
-	header('HTTP/1.1 500 Couldnot send mail! Sorry..');
+	header('HTTP/1.1 500 Could not send mail! Sorry..');
 	exit();
 } else {
 	echo '<h3>Hi ' . $postName . ',<br/> Thank you for your email</h3>
