@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $.fn.idle = function (time) {
+/*     $.fn.idle = function (time) {
         var o = $(this);
         o.queue(function () {
             setTimeout(function () {
@@ -7,7 +7,7 @@ $(document).ready(function () {
             }, time);
         });
         return this; //set idle function
-    }
+    } */
 
     $('.error').hide(); //Hide error messages 
     $('#MainResult').hide(); //we will hide this right now
